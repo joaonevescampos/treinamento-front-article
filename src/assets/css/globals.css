@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('/src/fonts/Poppins-Black.ttf') format('truetype');
+}
+
+:root {
+    --color-white: #ffffff;
+    --color-black: #462525;
+    --color-transparent-1: #F8F9FC00; 
+    --color-transparent-2: #0000000D;
+    --color-transparent-3: #00000033 ;
+    --color-transparent-4: #00000080;
+    --color-gray-1: #F8F9FC;
+    --color-gray-2: #E5E5E5;
+    --color-gray-3: #EBEBEB;
+    --color-gray-4: #C2C2C2;
+    --color-gray-5: #A0A0A0;
+    --color-gray-6: #9F9F9F;
+    --color-gray-7: #7C7C7C;
+    --color-gray-8: #707070;
+    --color-gray-9: #6C6C6C;
+    --color-gray-10: #2F2F2F;
+    --color-gray-11: #141414;
+    --primary-color: #D51C17;
+    --secondary-color: #FFA500;
+
+    --font-primary-bold: 'Poppins', sans-serif;
+}
+
+html, body {
+    background-color: var(--color-gray-1);
+    font-family: var(--font-primary-bold);
+    font-size: 30px;
+    font-weight: bold;  
+}
+
+
