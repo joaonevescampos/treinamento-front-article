@@ -29,9 +29,7 @@
 
 html, body {
     background-color: var(--color-gray-1);
-    font-family: var(--font-primary-bold);
-    font-size: 30px;
-    font-weight: bold;  
+    font-family: var(--font-primary-bold); 
 }
 
 
