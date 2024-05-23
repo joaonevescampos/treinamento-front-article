@@ -349,21 +349,19 @@ aside {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-flow: dense; */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: start;
     flex-wrap: wrap;
     margin: 20px;
     line-height: 22px;
+    gap: 30px;
+    /* max-width: 360px; */
 }
 
 .section {
     font-size: 12px;
     width: 120px;
     margin: 10px;
-}
-
-.section1 {
-    height: 120px;
 }
 
 .topics {
@@ -377,11 +375,22 @@ aside {
 
 /* DESKTOP VERSION */
 @media screen and (min-width: 768px){
+
     .desktop_items {
         display: block;
     }
 
     .menu {
         display: none;
+    }
+
+    .index_container {
+        justify-content: center;
+        max-width: 1000px;
+    }
+
+    .column1, .column2 {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
