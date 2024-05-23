@@ -1,8 +1,8 @@
-@font-face {
+/* @font-face {
     font-family: 'Poppins';
     src: url('/src/fonts/Poppins-Black.ttf') format('truetype');
     font-weight: 400;
-}
+} */
 
 :root {
     --color-white: #ffffff;
@@ -31,7 +31,6 @@
 html, body {
     background-color: var(--color-gray-1);
     font-family: var(--font-primary-bold);
-    font-weight: 400;
 }
 
 
