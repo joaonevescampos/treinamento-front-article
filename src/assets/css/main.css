@@ -76,15 +76,20 @@ nav::-webkit-scrollbar {
 
 .last_topic {
     font-size: 10px;
-    color: var(--color-gray-10);
-    font-weight: 600;
-    padding-right: 35px;
+    color: var(--primary-color);
+    font-weight: 700;
     cursor: pointer;
 }
 
 /* MAIN */
-
+main {
+    background-color: var(--color-gray-0);
+}
 .cover {
+    background-image: url('../images/photos/photo1.jpg');
+    background-size: cover;
+    background-position: 30% 30%;
+    height: 260px;
     width: 100%;
 }
 
@@ -496,14 +501,70 @@ footer {
     }
 
     /* MENU  */
+    nav {
+        margin: 0px 20px;
+    }
     .menu {
         display: none;
     }
 
-    /* MAIN  */
+    .nav_container {
+        justify-content: space-between;
+    }
 
+    .topic {
+        font-size: 11px;
+    }
+    /* MAIN  */
+    main {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .main_content {
+        position: absolute;
+        background-color: var(--color-gray-0);
+        width: 1000px;
+        padding: 30px;
+        box-sizing: border-box;
+        top: 330px;
+        z-index: 999;
+    }
+    .cover {
+        height: 400px;
+    }
+
+    /* ASIDE  */
+    aside {
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        top: 3600px;
+        width: 100%;
+    }
+
+    /* .aside_title_container {
+        padding-left: 100px;
+    } */
+    .cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .topic_article_container {
+        width: 224px;
+        height: 200px;
+    }
 
     /* FOOTER  */
+    footer {
+        position: absolute;
+        top: 4000px;
+        width: 100%;
+    }
     .index_container {
         justify-content: center;
         max-width: 1000px;
