@@ -468,7 +468,7 @@ footer {
 
 
 /* DESKTOP VERSION */
-@media screen and (min-width: 992px){
+@media screen and (min-width: 1200px){
     /* HEADER  */
     header {
         margin: 20px 50px 0 50px;
@@ -698,24 +698,25 @@ footer {
         margin-top: 10px;
     }
 
-
-
-
-
     /* ASIDE  */
     aside {
         position: absolute;
         justify-content: center;
-        align-items: start;
+        align-items: center;
         top: 4450px;
-        width: calc(100% - 100px);
-        /* max-width: 1000px; */
+        width: calc(100% - 50px);
         margin: 0 50px;
         overflow-x: scroll;
     }
 
     aside::-webkit-scrollbar {
         display: none;
+    }
+
+    .aside_container {
+        display: flex;
+        align-items: start;
+        max-width: 1200px;
     }
 
     .cards {
@@ -733,7 +734,7 @@ footer {
     /* FOOTER  */
     footer {
         position: absolute;
-        top: 4800px;
+        top: 4780px;
         width: 100%;
     }
 
