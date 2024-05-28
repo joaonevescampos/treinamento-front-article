@@ -95,7 +95,7 @@ nav::-webkit-scrollbar {
 
 /* MAIN */
 main {
-    background-color: var(--color-gray-0);
+    background-color: var(--color-gray-1);
 }
 .cover {
     background-image: url('../images/photos/photo1.jpg');
@@ -443,6 +443,7 @@ footer {
     font-size: 12px;
     width: 120px;
     margin: 20px;
+    line-height: 24px;
 }
 
 .topics {
@@ -450,7 +451,8 @@ footer {
 }
 
 .title_section {
-    font-weight: 700;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 .social_medias {
@@ -572,7 +574,7 @@ footer {
 
     .main_content {
         position: absolute;
-        background-color: var(--color-gray-0);
+        background-color: var(--color-gray-1);
         width: 1000px;
         padding: 30px;
         box-sizing: border-box;
@@ -773,14 +775,25 @@ footer {
     .footer_container {
         padding: 30px 50px 0 50px;
     }
-    .index_container {
-        justify-content: center;
-        max-width: 1400px;
+    .index_container_desktop {
+        justify-content: space-between;
+        width: calc(100% - 50px);
+        margin-top: 20px;
     }
 
-    .column1, .column2 {
-        display: flex;
-        flex-wrap: wrap;
+    .section_desktop {
+        line-height: 26px;
+        font-size: 12px;
+        margin: 20px 0;
+    }
+
+    .section_desktop section {
+        margin-bottom: 50px;
+    }
+
+    .title_section_desktop {
+        font-weight: 900;
+        text-transform: uppercase;
     }
 
     .logo_mw {
