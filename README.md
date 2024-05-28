@@ -3,7 +3,7 @@
 ## Site - Massa
 
 - Site responsivo construído para o treinamento de Frontend da Mundiware usando as tecnologias HTML e CSS.
-- Acesse o deploy do site:
+- Acesse o deploy do site: https://joaonevescampos.github.io/treinamento-front-article/src/
 - Veja  a aparência do site para cada versão.
 
 ### Versão Desktop
